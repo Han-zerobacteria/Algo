@@ -14,8 +14,6 @@
 a = 0
 ans = 0
 
-
-
 for i in range(10):
     mushroom = int(input())
     a += mushroom
@@ -26,7 +24,4 @@ for i in range(10):
             ans = a
         else:
             ans = ans
-            
-
 print(ans)
-
