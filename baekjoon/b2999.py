@@ -32,15 +32,15 @@ k i
 '''
 
 word = input()
-len_word = len(word)
+n = len(word)
 
-x, y = 0, 0
+r = c = 0
 
-for r in range(1, int(len_word/2)+1):
-    for c in range(r, len_word+1):
-        if r * c == len_word:
-            x, y = r, c
+for i in range(1, n+1):
+    for j in range(i, n+1):
+        if i * j == n:
+            r, c = i, j
 
-for i in range(x):
-    for j in range(y):
-        print(word[i + j * x], end='')
+for x in range(r):
+    for y in range(c):
+        print(word[x+y*r], end='')
