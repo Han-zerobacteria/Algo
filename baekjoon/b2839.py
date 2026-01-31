@@ -31,7 +31,7 @@ if ans == float('inf'):
 else:
     print(ans)
 '''
-
+# 그리디
 N = int(input())
 ans = 0
 
