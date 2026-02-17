@@ -6,6 +6,6 @@ for i in range(n):
         dic[extend] += 1
     else:
         dic[extend] = 1
-print(dic)
+
 for key in sorted(dic.keys()):
     print(key, dic[key])
