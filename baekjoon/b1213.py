@@ -17,10 +17,7 @@ left = ""
 for ch in sorted(count.keys()):
     if count[ch] % 2 == 1:
         odd_count += 1
-        mid = ch
-    
     left += ch * (count[ch] // 2)
-    print(count)
 # 3. 팰린드롬 가능 여부 판단
 if odd_count > 1:
     print("I'm Sorry Hansoo")
